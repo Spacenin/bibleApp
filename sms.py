@@ -5,7 +5,7 @@ import bible
 #Send message with the obtained verse
 def sendMsg():
     #Get twilio information
-    with open("secrets.json") as secretsFile:
+    with open("/home/pi/Code/pys/bibleApp/secrets.json") as secretsFile:
         secretData = json.load(secretsFile)
 
     #Get random verse
